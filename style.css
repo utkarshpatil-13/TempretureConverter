@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#header{
+    background-color: black;
+}
+
+nav{
+    padding: 10px;
+    width: 528px;
+    margin: auto;
+}
+
+nav p{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    font-family: cursive;
+    transition: transform 1s;
+}
+
+nav p:hover{
+    transform: translateY(-10px);
+    box-shadow: 3px 3px 3px 3px rgb(134, 132, 132);
+}
+
+.info{
+    width: 90%;
+    height: 10%;
+    margin: 40px auto;
+    font-size: 18px;
+}
+
+.instruct{
+    width: 90%;
+    height: 10%;
+    margin: auto;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.middle{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 50px;
+}
+
+.temp{
+    font-size: 20px;
+    border: none;
+    transform: translate(-5px);
+    background-color: rgb(245, 207, 137);
+    padding: 3px;
+    border-radius: 5px;
+    transition: font-weight 0.3s, transform 0.3s;
+    scroll-behavior: smooth;
+    box-shadow: 3px 3px grey;
+}
+
+.temp option{
+    box-shadow: 3px 3px grey;
+}
+
+.temp:hover{
+    font-weight: 600;
+    transform: scale(1.1);
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+}
+
+#submit{
+    font-size: 18px;
+    width: 150px;
+    height: 40px;
+    background: #ff523b;
+    color: #fff;
+    margin-top: 50px;
+    border-radius: 30px;
+    transition: 0.2s;
+    box-shadow: 2px 2px #965050;
+    border: none;
+}
+
+#submit:active{
+    background: #965050;
+    transform: scale(0.9);
+}
+
+#message{
+    width: 80%;
+    background-color: lightblue;
+    height: 70px;
+    margin: auto;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 3px 3px rgb(64, 86, 93);
+}
+
+.take-input{
+    display: flex;
+    justify-content: center;
+}
+
+#temp-input{
+    border: 0;
+    outline: none;
+    background-color: rgb(245, 207, 137);
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    text-align: center;
+    box-shadow: 3px 3px grey;
+}
+
+.leftdiv p{
+    text-align: center;
+}
+
+.rightdiv p{
+    text-align: center;
+}
